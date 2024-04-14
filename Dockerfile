@@ -1,4 +1,4 @@
-FROM python:3.10 as builder
+FROM python:3.12 as builder
 
 RUN apt-get update && apt-get install -y \
     git \
